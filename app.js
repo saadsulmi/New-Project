@@ -22,6 +22,10 @@ app.use(nocache());
 
 mongo.dataBaseUp();
 
+
+
+
+
 app.listen(port,()=>{
  console.log("server connected "+port);
 });
